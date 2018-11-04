@@ -2,6 +2,7 @@ package page;
 import static setup.DriverSetup.getDriver;
 
 public class TestCasePage extends BasePage {
+
     public TestCasePage() {
         super(getDriver());
         visit(getUrl());

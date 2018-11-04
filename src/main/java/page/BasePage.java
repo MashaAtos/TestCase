@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 
 
 public class BasePage {
+    
     protected WebDriver driver;
     public static final String BASE_URL =
             System.getProperty("selenium.url", "https://ancient-taiga-22967.herokuapp.com");
@@ -21,7 +22,6 @@ public class BasePage {
     public WebElement find(By locator) {
         return driver.findElement(locator);
     }
-
 
     public WebElement find(String cssSelector) {
 

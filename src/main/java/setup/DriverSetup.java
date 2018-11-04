@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverSetup {
+
     private static WebDriver driver;
     public static String BROWSER =
             System.getProperty("selenium.browser", "chrome");

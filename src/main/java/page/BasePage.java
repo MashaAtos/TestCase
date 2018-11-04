@@ -27,6 +27,4 @@ public class BasePage {
 
         return find(By.cssSelector(cssSelector));
     }
-
-
 }

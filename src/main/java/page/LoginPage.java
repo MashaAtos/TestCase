@@ -33,5 +33,4 @@ public class LoginPage extends BasePage {
     public void clickSignin() {
         find(signin).click();
     }
-
 }

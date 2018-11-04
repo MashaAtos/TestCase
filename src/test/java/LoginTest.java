@@ -18,5 +18,4 @@ public class LoginTest extends BaseTest{
         loginPage.setPassword();
         loginPage.clickSignin();
     }
-
 }
